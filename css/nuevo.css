@@ -1,0 +1,158 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: rgb(109, 96, 109);
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-inicial {
+    width: 100%;
+    padding: 4rem 3rem;
+    text-align: center;
+    background: url(../imagenes/mahdi-soheili-cOdXOk0UT8w-unsplash\ \(1\).jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    color: blanchedalmond;
+    animation: Fondo 7s infinite;
+}
+
+@keyframes Fondo {
+    0% {
+        background-image: url(../imagenes/mahdi-soheili-cOdXOk0UT8w-unsplash\ \(1\).jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    25% {
+        background-image: url(../imagenes/jakob-soby-zQe1wEsW3W4-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    50% {
+        background-image: url(../imagenes/mitchell-luo-W-n86UqsTgw-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    75% {
+        background-image: url(../imagenes/ricardo-rocha-nj1bqRzClq8-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background-image: url(../imagenes/rose-foos-bOBqoMb9CRo-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(87, 74, 74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    width: 35px;
+    padding: 20px;
+}
+
+.logo img {
+    width: 200%;
+    padding: 10px;
+    animation: Rotacion 5s;
+}
+
+@keyframes Rotacion {
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(720deg);
+    }
+}
+
+.item-options {
+    color: rgb(201, 191, 201);
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.redes {
+    width: 35px;
+    margin: 0px;
+    position: static;
+
+
+}
+
+.redes img {
+    width: 70%;
+}
+
+.title {
+    align-items: center;
+    width: 300px;
+    height: 50%;
+    border-style: double;
+    padding: 5px;
+    margin: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flot {
+    width: 250px;
+    float: left;
+    margin: 7px;
+}
+
+.flot-2 {
+    width: 350px;
+    float: left;
+    margin: 6px;
+    text-align: center;
+}
+
+.des {
+
+    border-style: solid;
+    display: inline-block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    /*aca no me sirvio centralo como bloque*/
+}
+
+.pral {
+    height: 300px;
+    background-image: url(../imagenes/rose-foos-bOBqoMb9CRo-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5PX;
+    border-style: dotted;
+}
+
+p {
+    text-align: center;
+}
